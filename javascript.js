@@ -9,7 +9,6 @@ var link = document.querySelector("#link");
 var phone = document.querySelector("#input_phone");
 const proxy = 'http://cors-anywhere.herokuapp.com/';
 const key = '4fdf6c320a3413600b4af3a86c0f496a';
-// url = 'https://kiemthecaofree.com/khao-sat-kiem-tien/?utm_source';
 var url = "https://go.isclix.com/deep_link/4665406253457732723/5325601808419035241?utm_source";
 var apiUrl;
 async function RutGonLink(){
