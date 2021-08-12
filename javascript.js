@@ -14,7 +14,7 @@ var url = "https://go.isclix.com/deep_link/4665406253457732723/53256018084190352
 var apiUrl;
 async function RutGonLink(){
     try {
-        const response  = await fetch(apiUrl);
+        const response  = await fetch(proxy + apiUrl);
         arrUrl = await response.json();
         hiddenLoad();
         var p_tag = document.createElement('p');
